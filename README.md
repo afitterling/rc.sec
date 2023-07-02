@@ -9,9 +9,9 @@ You need to use an air-gapped system to run these.
 # create hashes
 ./rc.sec/hashes_create.sh /etc /my_volume/etc-from-my-secured-box
 
-#tamper configurations
+# tamper configurations
 sudo vim /etc/aliases
 
-#verify
+# verify
 ./rc.sec/hashes_verify.sh /etc /my_volume/etc-from-my-secured-box
 ```
