@@ -7,6 +7,7 @@ You need to use an air-gapped system to run these.
 
 ```
 # create hashes
+# on mac may need to use trailing /
 ./rc.sec/hashes_create.sh /etc /my_volume/etc-from-my-secured-box
 
 # tamper configurations
