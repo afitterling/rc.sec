@@ -11,8 +11,8 @@ while read each; do
           #echo "$hash $toverifydir/$file" | sha512sum -c 
           echo "$hash $toverifydir/$file" | sha512sum -c --quiet 
 	}
-	test -f "$chksumdir/$file" || {
-	  echo "warning, untracked file: $toverifydir$file"
-	}
+	#test -f "$chksumdir$file" || {
+	#  echo "warning, untracked file: $toverifydir$file"
+	#}
 done
 
