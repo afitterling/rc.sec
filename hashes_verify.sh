@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# DON'Ts
-# hand in $1 and $2 without trailing /
-# 
 toverifydir=$1
 chksumdir=$2
 find $toverifydir -type f |

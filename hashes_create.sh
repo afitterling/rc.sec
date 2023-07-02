@@ -1,5 +1,4 @@
 #!/bin/bash
-#
 
 toverifydir=$1
 chksumdir=$2
