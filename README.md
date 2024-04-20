@@ -1,7 +1,7 @@
 # rc.sec
 
 Are command line utilities to help to detect and find IOCs (incidents of compromises) on filesystems.
-You need to use an air-gapped system to run these. Ideal not on exaclty t
+You need to use an air-gapped system to run these. Ideal not on exactly the system you assume is compromised.
 
 ## Howto
 
