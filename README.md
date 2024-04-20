@@ -1,7 +1,7 @@
 # rc.sec
 
 Are command line utilities to help to find incidents of compromises (filesystem only).
-You need to use an air-gapped system to run these. Ideal not on exactly the system you assume is compromised.
+You need to use an air-gapped system to run these. Idealy not on exactly the system you assume is compromised.
 
 ## Howto
 
