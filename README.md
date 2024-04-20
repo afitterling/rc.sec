@@ -11,7 +11,7 @@ You need to use an air-gapped system to run these. Ideal not on exactly the syst
 ./rc.sec/hashes_create.sh /etc /my_volume/etc-from-my-secured-box
 
 # tamper configurations
-sudo vim /etc/aliases
+vim /etc/aliases
 
 # verify
 ./rc.sec/hashes_verify.sh /etc /my_volume/etc-from-my-secured-box
