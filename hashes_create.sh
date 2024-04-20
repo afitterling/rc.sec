@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ -z "$*" ]; then
+  echo "$0 [VERIFY_DIR] [CHKSUM_DIR]"
+  exit
+fi
+
 toverifydir=$1
 chksumdir=$2
 
@@ -16,6 +21,5 @@ while read each; do
 	echo "$file" >> $filelist
 	dirname=`dirname "$file"`
 	mkdir -p "$chksumdir/$dirname"
-	sha512sum "$each" | gawk '{ print $1 }' > "$chksumdir/$file.sum"
+	sha512sum "$each" | awk '{ print $1 }' > "$chksumdir/$file.sum"
 done
-
