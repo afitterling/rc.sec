@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ -z "$*" ]; then
+  echo "$0 [VERIFY_DIR] [CHKSUM_DIR]"
+  exit
+fi
+
 toverifydir=$1
 chksumdir=$2
 find $toverifydir -type f |
@@ -15,4 +20,3 @@ while read each; do
 	  echo "WARNING: untracked file: $toverifydir$file"
 	}
 done
-
