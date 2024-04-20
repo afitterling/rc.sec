@@ -10,7 +10,7 @@ You need to use an air-gapped system to run these. Ideal not on exactly the syst
 # on mac may need to use trailing /
 ./rc.sec/hashes_create.sh /etc /my_volume/etc-from-my-secured-box
 
-# tamper configurations
+# tamper any configuration file
 vim /etc/aliases
 
 # verify
